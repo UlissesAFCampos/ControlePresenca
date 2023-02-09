@@ -1,0 +1,45 @@
+﻿@model EnsaioRegional.Models.DataEnsaio
+
+@{
+    ViewData["Title"] = "Editar";
+}
+
+<h1>Editar</h1>
+
+<h4>Data Ensaio</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdData" />
+            <div class="form-group">
+                <label asp-for="Data" class="control-label"></label>
+                <input asp-for="Data" class="form-control" />
+                <span asp-validation-for="Data" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DescricaoEnsaio" class="control-label"></label>
+                <input asp-for="DescricaoEnsaio" class="form-control" />
+                <span asp-validation-for="DescricaoEnsaio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CidadeRealizacao" class="control-label"></label>
+                <input asp-for="CidadeRealizacao" class="form-control" />
+                <span asp-validation-for="CidadeRealizacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+        <script src="@Url.Content("~/js/jquery.validate.pt-Br.js")"></script>
+}

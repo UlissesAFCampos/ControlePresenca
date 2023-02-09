@@ -1,0 +1,59 @@
+﻿@model IEnumerable<EnsaioRegional.Models.Musico>
+
+@{
+    ViewData["Title"] = "Músicos";
+}
+
+<h1>Músicos</h1>
+
+<p>
+    <a asp-action="Create">Cadastrar</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeMusico)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdTipoMusico)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdTipoFormacao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Instrumento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Igreja)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeMusico)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdTipoMusico)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdTipoFormacao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Instrumento.NomeInstrumento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Igreja.Cidade)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdMusico">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdMusico">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdMusico">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

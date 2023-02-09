@@ -1,0 +1,47 @@
+﻿@model IEnumerable<EnsaioRegional.Models.Igreja>
+
+@{
+    ViewData["Title"] = "Igrejas";
+}
+
+<h1>Igrejas</h1>
+
+<p>
+    <a asp-action="Create">Cadastrar</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NumeroRelatorio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nomeigreja)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cidade)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumeroRelatorio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nomeigreja)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cidade)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdIgreja">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdIgreja">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdIgreja">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

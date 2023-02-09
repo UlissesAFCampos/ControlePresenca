@@ -1,0 +1,40 @@
+﻿@model EnsaioRegional.Models.Instrumento
+
+@{
+    ViewData["Title"] = "Edit - Instrumentos";
+}
+
+<h1>Edit - Instrumento</h1>
+
+<h4>Instrumento</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdInstrumento" />
+            <div class="form-group">
+                <label asp-for="NomeInstrumento" class="control-label"></label>
+                <input asp-for="NomeInstrumento" class="form-control" />
+                <span asp-validation-for="NomeInstrumento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdTipoInstrumento" class="control-label"></label>
+                <select asp-for="IdTipoInstrumento" class="form-control" asp-items="ViewBag.IdTipoInstrumento"></select>
+                <span asp-validation-for="IdTipoInstrumento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+        <script src="@Url.Content("~/js/jquery.validate.pt-Br.js")"></script>
+}

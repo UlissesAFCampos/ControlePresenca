@@ -1,0 +1,48 @@
+﻿@model EnsaioRegional.Models.Musico
+
+@{
+    ViewData["Title"] = "Details - Músico";
+}
+
+<h1>Details - Músico</h1>
+
+<div>
+    <h4>Musico</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NomeMusico)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NomeMusico)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IdTipoMusico)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IdTipoMusico)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.IdTipoFormacao)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.IdTipoFormacao)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Instrumento)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Instrumento.NomeInstrumento)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Igreja)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Igreja.Cidade)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.IdMusico">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

@@ -1,0 +1,173 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EnsaioRegional
+build_property.RootNamespace = EnsaioRegional
+build_property.ProjectDir = C:\Users\Ulisses\Desktop\Curso C#\TurmaNoite\ProjetoEnsaio - Copia (2)\EnsaioRegional\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Ulisses\Desktop\Curso C#\TurmaNoite\ProjetoEnsaio - Copia (2)\EnsaioRegional
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/DataEnsaios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YUVuc2Fpb3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/DataEnsaios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YUVuc2Fpb3NcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/DataEnsaios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YUVuc2Fpb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/DataEnsaios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YUVuc2Fpb3NcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/DataEnsaios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGF0YUVuc2Fpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Igrejas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWdyZWphc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Igrejas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWdyZWphc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Igrejas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWdyZWphc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Igrejas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWdyZWphc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Igrejas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSWdyZWphc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Instrumentoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1bWVudG9lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Instrumentoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1bWVudG9lc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Instrumentoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1bWVudG9lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Instrumentoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1bWVudG9lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Instrumentoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5zdHJ1bWVudG9lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Musicoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNvZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Musicoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNvZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Musicoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNvZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Musicoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNvZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Musicoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzaWNvZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Presencas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc2VuY2FzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Presencas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc2VuY2FzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Presencas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc2VuY2FzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Presencas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc2VuY2FzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Presencas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJlc2VuY2FzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/TipoInstrumentoes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0luc3RydW1lbnRvZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/TipoInstrumentoes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0luc3RydW1lbnRvZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/TipoInstrumentoes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0luc3RydW1lbnRvZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/TipoInstrumentoes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0luc3RydW1lbnRvZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/TipoInstrumentoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb0luc3RydW1lbnRvZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Ulisses/Desktop/Curso C\#/TurmaNoite/ProjetoEnsaio - Copia (2)/EnsaioRegional/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6ynxbh3qtg

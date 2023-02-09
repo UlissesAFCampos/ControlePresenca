@@ -1,0 +1,41 @@
+﻿@model IEnumerable<EnsaioRegional.Models.Instrumento>
+
+@{
+    ViewData["Title"] = "Instrumentos";
+}
+
+<h1>Instrumentos</h1>
+
+<p>
+    <a asp-action="Create">Cadastrar</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeInstrumento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TipoInstrumento)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeInstrumento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TipoInstrumento.Descricao)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.IdInstrumento">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.IdInstrumento">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.IdInstrumento">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
